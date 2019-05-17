@@ -1,7 +1,5 @@
 package com.zsl.lock;
 
-import lombok.SneakyThrows;
-
 import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
@@ -323,3 +321,4 @@ public class CustomReentrantLock implements Lock, Serializable {
         return this.abstractSync.newCondition();
     }
 }
+
