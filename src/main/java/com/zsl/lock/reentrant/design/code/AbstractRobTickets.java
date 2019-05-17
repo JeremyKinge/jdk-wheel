@@ -1,4 +1,4 @@
-package com.zsl.lock.reentrant_lock.design_practice.code;
+package com.zsl.lock.reentrant.design.code;
 
 import lombok.Getter;
 import lombok.Setter;

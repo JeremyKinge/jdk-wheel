@@ -1,4 +1,4 @@
-package com.zsl.lock.reentrant_lock.design_practice.code;
+package com.zsl.lock.reentrant.design.code;
 
 /**
  * TODO  定义客户抢票行为操作
@@ -10,6 +10,7 @@ public interface RobTicketsBehavior {
     
     /**
      * 抢票
+     * @return boolean
      */
     boolean robTickets();
     

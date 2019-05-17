@@ -1,4 +1,4 @@
-package com.zsl.lock.reentrant_lock;
+package com.zsl.lock.reentrant;
 
 import java.io.Serializable;
 import java.util.concurrent.TimeUnit;

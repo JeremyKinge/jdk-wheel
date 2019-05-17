@@ -1,4 +1,4 @@
-package com.zsl.lock.reentrant_lock.design_practice.code;
+package com.zsl.lock.reentrant.design.code;
 
 /**
  * TODO 用户抢票实现

@@ -18,5 +18,5 @@ CSDN：https://blog.csdn.net/weixin_43495590
 
 1. 每个大模块划分都是zsl包下的一个模块包，如项目结构图中Lock锁的lock包
 2. 每个大模块包中都包含具体实现模块，如项目结构图中ReentrantLock的实现
-3. 每个具体实现模块中都包含该具体模块的轮子制造如CustomReentrantLock类、设计思想运用实践如design_practice包
+3. 每个具体实现模块中都包含该具体模块的轮子制造如CustomReentrantLock类、设计思想运用实践如design包
 4. 每个具体实现模块都有一个位于resources/md包下的总结文档，如ReentrantLock的文档ReentrantLock.md
