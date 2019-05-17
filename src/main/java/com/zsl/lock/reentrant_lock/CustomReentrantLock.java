@@ -1,11 +1,10 @@
-package com.zsl.lock;
+package com.zsl.lock.reentrant_lock;
 
 import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * TODO ÊµÏÖReentrantLockËø
